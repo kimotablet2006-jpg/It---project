@@ -1,0 +1,66 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4e1c1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contact-container {
+    background: #1e3a5e;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgb(67, 172, 242);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.contact-container h2 {
+    color: #efe8e8;
+    margin-bottom: 0rem;
+}
+
+.contact-container p {
+    color: #e9ebed;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    text-align: right;
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #53a5e3;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    box-sizing: border-box; /* لضمان عدم خروج المدخلات عن الإطار */
+}
+
+.submit-btn {
+    background-color: #18bb06;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100%;
+    transition: background 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #1651c6;
+}

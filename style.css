@@ -1,0 +1,466 @@
+
+.container {
+  width: 98%;
+  margin: auto;
+  
+  
+}
+
+.opening {
+  position: relative;
+  font-size: 50px;
+  background-color: #1e3a5f;
+  display: block;
+  padding: 70px;
+  text-align: center;
+  
+}
+
+
+nav{
+  background-color:#f4e1c1;
+  padding: 0.1px;
+  position:fixed;
+  width: 100%;
+  height:66px ;
+  top: 0;
+  z-index: 1000;
+}
+
+#icon{
+  color: #f4e1c1;
+  position: relative;
+  left: 130px;
+  right: 30px;
+}
+
+
+.main {
+  color: white;
+  position: relative;
+  left: -40px;
+  top: -45px;
+  font-family: "playfair display";
+}
+
+.secondary {
+  position: absolute;
+  right: 50px;
+  top: 100px;
+  font-size: 20px;
+  font-family: "playfair display";
+  color: #f4e1c1;
+}
+
+.pp {
+  position: absolute;
+  left: 350px;
+  top: 150px;
+  font-size: 20px;
+  font-family: "playfair display";
+  color: #f4e1c1;
+}
+
+/*  RESPONSIVE */
+@media (max-width: 768px) {
+
+  .opening {
+  font-size: 50px;
+  background-color: #1e3a5f;
+  display: block;
+  padding: 50px;}
+}
+  
+
+  
+  #icon {
+    left: 40px;
+    display: block;
+    text-align: center;
+  }
+  
+  span {
+    left: 420px;
+    display: block;
+  
+  }
+  
+  .secondary {
+    left: 0px;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+  }
+  
+  .pp {
+    
+    text-align: center;
+    display: block;
+    font-size: 16px;
+  }
+    .opening {
+    font-size: 32px;
+    padding: 25px;
+    text-align: center;
+    position: relative;
+    margin: auto;
+}
+a{
+  margin: 1px;
+  font-size: 12px;
+  text-decoration: none;
+  color: #1e3a5f;
+  display: inline;
+  
+}
+
+ 
+li {
+  list-style: none;
+  display: inline-block;
+  margin: 2px;
+  cursor: pointer;
+}
+.Register{
+  background-color:  #1e3a5f;
+  padding: 10px;
+  border:1px solid #1e3a5f;
+  border-radius: 5px;
+  position: relative;
+  left:820px ;
+  cursor: pointer;
+}
+#Register{
+  color: white;
+}
+.b{
+  background-color:#f5f5f5 ;
+  position: relative;
+  height: 250px;
+  margin: 15px;
+}
+#visited{
+  color:  #1e3a5f;
+  font-size: 20px;
+  position: absolute;
+  top: 30px;
+  left:590;
+}
+#site{
+  position: absolute;
+  top: 90px;
+  left: 630px;
+  font-size: 50px;
+  color: #1e3a5f;
+}
+#hotels{
+  color:  #1e3a5f;
+  font-size: 20px;
+  position: absolute;
+  top: 30px;
+  left: 300px;
+}
+#hotelIcon{
+  position: absolute;
+  top: 90px;
+  left: 340px;
+  font-size: 50px;
+  color: #1e3a5f;
+}
+#activity{
+  color:  #1e3a5f;
+  font-size: 20px;
+  position: absolute;
+  top: 30px;
+  left: 850px;
+}
+#activityIcon{
+  position: absolute;
+  top: 93px;
+  left: 900px;
+  font-size: 50px;
+  color: #1e3a5f;
+}
+.picture span{
+  position: absolute;
+  top: 70px;
+  left: 550;
+  color:#1e3a5f ;
+  font-size: 30px;
+}
+.picture{
+  height: 2000px;
+  background-color:#f5f5f5 ;
+  margin:15px;
+  position:relative;
+}
+
+#inclind{
+  position:absolute;
+  top: 150px;
+  width: 300px;
+  height: 200px;
+  border:10px solid #1e3a5f;
+  border-radius: 50px;
+  margin: 10px;
+}
+#webp{
+  position:absolute;
+  top: 550px;
+  width: 300px;
+  height: 200px;
+  border:10px solid #1e3a5f;
+  border-radius: 50px;
+  margin: 10px;}
+#china{
+  position:absolute;
+  top: 150px;
+  left: 450px;
+  width: 300px;
+  height: 200px;
+  border:10px solid #1e3a5f;
+  border-radius: 50px;
+  margin: 10px;}
+#france{
+  position:absolute;
+  top: 150px;
+  left: 900px;
+  width: 300px;
+  height: 200px;
+  border:10px solid #1e3a5f;
+  border-radius: 50px;
+  margin: 10px;}
+#giza{position:absolute;
+  top: 950px;
+  left: 450px;
+  width: 300px;
+  height: 200px;
+  border:10px solid #1e3a5f;
+  border-radius: 50px;
+  margin: 10px;}
+#beach{position:absolute;
+  top: 950px;
+  width: 300px;
+  left: 900px;
+  height: 200px;
+  border:10px solid #1e3a5f;
+  border-radius: 50px;
+  margin: 10px;}
+  #moaz{
+    position:absolute;
+  top: 950px;
+  width: 300px;
+  height: 200px;
+  border:10px solid #1e3a5f;
+  border-radius: 50px;
+  margin: 10px}
+  #turkish{
+    position:absolute;
+  top: 550px;
+  left: 450px;
+  width: 300px;
+  height: 200px;
+  border:10px solid #1e3a5f;
+  border-radius: 50px;
+  margin: 10px}
+  #shutter{
+    position:absolute;
+  top: 550px;
+  left: 900px;
+  width: 300px;
+  height: 200px;
+  border:10px solid #1e3a5f;
+  border-radius: 50px;
+  margin: 10px}
+  #said{   
+    position:absolute;
+  top: 1350px;
+  width: 300px;
+  height: 200px;
+  border:10px solid #1e3a5f;
+  border-radius: 50px;
+  margin: 10px
+    
+  }
+  #beach1{   
+    position:absolute;
+  top: 1350px;
+  left: 450px;
+  width: 300px;
+  height: 200px;
+  border:10px solid #1e3a5f;
+  border-radius: 50px;
+  margin: 10px}
+  #beach2{position:absolute;
+  top: 1350px;
+  left: 900px;
+  width: 300px;
+  height: 200px;
+  border:10px solid #1e3a5f;
+  border-radius: 50px;
+  margin: 10px}
+
+  #contact{
+    position: fixed;
+    left: 1200px;
+    bottom: 20px;
+    width: 60px;
+    height: 60px;
+    background-color:#f4e1c1 ;
+    border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    text-decoration: none;
+    z-index:1000;}
+    
+    #book{
+      display:flex;
+      text-align: center;
+      justify-items: center;
+      position :absolute;
+      font-size: 30px;
+      top: 1780px;
+      left: 553px;
+      width: 150px;
+      height: 100px;
+      color: white;
+      background-color: #1e3a5f;
+      border-radius:40px;
+    }
+    .video{
+      height: 1000px;
+      background-color:#f5f5f5 ;
+  margin:15px;
+  position:relative;
+      
+    }
+
+    
+    
+    
+    img{
+      cursor: pointer;
+    }
+  img:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+.tower{
+  position:relative;
+  top:400px;
+  left: 60px;
+}
+.Eiffel{
+  position: relative;
+  top:305.2px;
+  left: 1010px;
+}
+.great{
+  position :relative;
+  top:350px;
+  left: 530px;
+}
+.pyramid{
+  position:relative;
+  top:1060;
+  left: 510px;
+}
+.Big{
+  position: relative;
+  top:600px;
+  left: 120px;
+}
+.street{
+  position: relative;
+  top: 870px;
+  left: 95px;
+}
+.maldives{
+  position: relative;
+  top: 820;
+  left: 1025;
+}
+.khan{
+  position: relative;
+  top:510px;
+  left: 1000px;
+}
+.Blue{
+  position: relative;
+  top:560px;
+  left: 560px;
+}
+.napa{
+  position: relative;
+  top: 1170px;
+  left: 100px;
+}
+.palawan{
+  position: relative ;
+  top: 1075px;
+  left: 1000px;
+}
+.phi{
+  position: relative;
+  top: 1125px;
+  left: 550px;
+}
+#hotel{
+  position: relative;
+  top: 100px;
+  left: 490px;
+  font-size: 50px;
+  color:  #1e3a5f;
+  
+}
+.hotelsec{
+  position: relative;
+  top: 150px;
+  left: 50px;
+  font-size: 24px;
+  color:#1e3a5f ;
+}
+.hotelsec li {
+  display: block;
+}
+.hotelsec a {
+  position: relative;
+  color: white;
+  background-color: #1e3a5f ;
+padding: 20px;
+cursor:pointer;
+  border-radius:20px;
+  font-size: 30px;
+  top: 30px;
+  left: 30px;
+  
+  
+}
+body{
+  background-color: white;
+  color: black;
+  
+}
+.dark-mode{
+  background-color: black;
+  color: white;
+}
+button{
+  position: relative;
+  background-color: #1e3a5f;
+  color: white;
+  left:-50px;
+  border-radius: 10px;
+}
+
+body{
+  overflow-x: hidden;
+  padding-top:60px;
+  
+}
+
+html{
+  overflow-x:hidden;
+}

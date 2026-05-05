@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book a Trip</title>
+
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+  <!-- icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="book.css">
+</head>
+<body>
+
+<!-- navbar -->
+<nav>
+  <ul>
+    <li><a href="registration.html"><i class="fa-solid fa-user-plus"></i> Registration</a></li>
+    <li><a href="destination.html"><i class="fa-solid fa-location-dot"></i> Destination</a></li>
+    <li><a href="profile.html"><i class="fa-solid fa-user"></i> Profile</a></li>
+    <li><a href="about.html"><i class="fa-solid fa-circle-info"></i> About Us</a></li>
+    <li><a href="hotels.html"><i class="fa-solid fa-hotel"></i> Hotels</a></li>
+  </ul>
+</nav>
+
+<!-- title -->
+<section class="header">
+  <h1>Book a Trip</h1>
+  <p>Fill in your details below and start your journey</p>
+</section>
+
+<!-- form -->
+<section class="section book-section">
+  <div class="book-form-card">
+    <form class="book-form">
+
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" class="form-input" placeholder="Enter your full name">
+      </div>
+
+      <div class="form-group">
+        <label for="start-date">Start Date</label>
+        <input type="date" id="start-date" class="form-input">
+      </div>
+
+      <div class="form-group">
+        <label for="end-date">End Date</label>
+        <input type="date" id="end-date" class="form-input">
+      </div>
+
+      <div class="form-group">
+        <label for="destination">Destination</label>
+        <select id="destination" class="form-input">
+          <option value="" disabled selected>Select a destination</option>
+          <optgroup label="Inside Egypt">
+            <option value="hurghada">Hurghada, Egypt — Serry Beach Resort</option>
+            <option value="new-alamein">New Alamein, North Coast — Rixos Premium Alamein</option>
+            <option value="marsa-alam">Marsa Alam, Red Sea — Sunrise Anjum Resort</option>
+          </optgroup>
+          <optgroup label="Outside Egypt">
+            <option value="las-vegas">Las Vegas Strip, USA — The LINQ Hotel & Casino</option>
+            <option value="london">London, UK — Park Plaza London Riverbank</option>
+            <option value="paris">Paris, France — Too Hotel & Spa Paris</option>
+          </optgroup>
+        </select>
+      </div>
+
+      <a href="#booked" class="book-btn">Book</a>
+
+    </form>
+  </div>
+</section>
+
+<!-- success popup -->
+<div id="booked" class="popup-overlay">
+  <div class="popup-card">
+    <i class="fa-solid fa-circle-check popup-icon"></i>
+    <h2>Trip Booked Successfully!</h2>
+    <p>Your trip has been confirmed. Get ready for an amazing adventure!</p>
+    <a href="#" class="book-btn popup-close-btn">Close</a>
+  </div>
+</div>
+
+</body>
+</html>
