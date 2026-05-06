@@ -1,0 +1,50 @@
+body {
+    background-color: #f5f5dc; /* بيج */
+    color: #0a192f;           /* أزرق داكن */
+    font-family: sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #0a192f; /* أزرق داكن */
+    padding: 15px;
+}
+
+nav a {
+    color: #f5f5dc;           /* بيج */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.profile-box {
+    background-color: #ffffff; /* أبيض للوضوح داخل البيج */
+    border: 2px solid #0a192f;
+    padding: 20px;
+    margin: 50px auto;
+    width: 300px;
+    border-radius: 10px;
+}
+
+h2 { border-bottom: 1px solid #0a192f; padding-bottom: 5px; }
+
+ul { list-style: none; padding: 0; }
+
+li { margin: 10px 0; }
+
+.tag {
+    background-color: #0a192f;
+    color: #f5f5dc;
+    padding: 2px 8px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #0a192f;
+    color: #f5f5dc;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
