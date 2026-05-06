@@ -317,6 +317,7 @@ li {
     
     #book{
       display:flex;
+      padding:15px;
       text-align: center;
       justify-items: center;
       position :absolute;
